@@ -1,0 +1,383 @@
+<div class="apidocDiv">
+<style>
+/*csslint
+*/
+.apidocDiv {
+    background: #fff;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.apidocDiv a[href] {
+    color: #33f;
+    font-weight: bold;
+    text-decoration: none;
+}
+.apidocDiv a[href]:hover {
+    text-decoration: underline;
+}
+.apidocCodeCommentSpan {
+    background: #bbf;
+    color: #000;
+    display: block;
+}
+.apidocCodeKeywordSpan {
+    color: #d00;
+    font-weight: bold;
+}
+.apidocCodePre {
+    background: #eef;
+    border: 1px solid;
+    color: #777;
+    padding: 5px;
+    white-space: pre-wrap;
+}
+.apidocFooterDiv {
+    margin-top: 20px;
+    text-align: center;
+}
+.apidocModuleLi {
+    margin-top: 10px;
+}
+.apidocSectionDiv {
+    border-top: 1px solid;
+    margin-top: 20px;
+}
+.apidocSignatureSpan {
+    color: #777;
+    font-weight: bold;
+}
+</style>
+<h1>api documentation for
+    <a
+
+        href="https://github.com/appfeel/node-pushnotifications"
+
+    >node-pushnotifications (v1.0.18)</a>
+</h1>
+<h4>A cross-platform push service for node.js</h4>
+<div class="apidocSectionDiv"><a
+    href="#apidoc.tableOfContents"
+    id="apidoc.tableOfContents"
+><h1>table of contents</h1></a><ol>
+
+    <li class="apidocModuleLi"><a href="#apidoc.module.node-pushnotifications">module node-pushnotifications</a><ol>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.node-pushnotifications.node-pushnotifications">
+            function <span class="apidocSignatureSpan"></span>node-pushnotifications
+            <span class="apidocSignatureSpan">(options)</span>
+            </a>
+
+        </li>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.node-pushnotifications.push_notifications">
+            function <span class="apidocSignatureSpan">node-pushnotifications.</span>push_notifications
+            <span class="apidocSignatureSpan">(options)</span>
+            </a>
+
+        </li>
+
+        <li>
+
+            <span class="apidocSignatureSpan">object <span class="apidocSignatureSpan">node-pushnotifications.</span>push_notifications.prototype</span>
+
+        </li>
+
+    </ol></li>
+
+    <li class="apidocModuleLi"><a href="#apidoc.module.node-pushnotifications.push_notifications">module node-pushnotifications.push_notifications</a><ol>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.node-pushnotifications.push_notifications.push_notifications">
+            function <span class="apidocSignatureSpan">node-pushnotifications.</span>push_notifications
+            <span class="apidocSignatureSpan">(options)</span>
+            </a>
+
+        </li>
+
+    </ol></li>
+
+    <li class="apidocModuleLi"><a href="#apidoc.module.node-pushnotifications.push_notifications.prototype">module node-pushnotifications.push_notifications.prototype</a><ol>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.node-pushnotifications.push_notifications.prototype.send">
+            function <span class="apidocSignatureSpan">node-pushnotifications.push_notifications.prototype.</span>send
+            <span class="apidocSignatureSpan">(_regIds, data, callback)</span>
+            </a>
+
+        </li>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.node-pushnotifications.push_notifications.prototype.sendWith">
+            function <span class="apidocSignatureSpan">node-pushnotifications.push_notifications.prototype.</span>sendWith
+            <span class="apidocSignatureSpan">(method, regIds, data, cb)</span>
+            </a>
+
+        </li>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.node-pushnotifications.push_notifications.prototype.setOptions">
+            function <span class="apidocSignatureSpan">node-pushnotifications.push_notifications.prototype.</span>setOptions
+            <span class="apidocSignatureSpan">(opts)</span>
+            </a>
+
+        </li>
+
+    </ol></li>
+
+</ol></div>
+
+<div class="apidocSectionDiv">
+<h1><a href="#apidoc.module.node-pushnotifications" id="apidoc.module.node-pushnotifications">module node-pushnotifications</a></h1>
+
+
+    <h2>
+        <a href="#apidoc.element.node-pushnotifications.node-pushnotifications" id="apidoc.element.node-pushnotifications.node-pushnotifications">
+        function <span class="apidocSignatureSpan"></span>node-pushnotifications
+        <span class="apidocSignatureSpan">(options)</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">function PN(options) {
+    this.settings = Object.assign({}, defaultSettings, options || {});
+}</pre></li>
+    <li>example usage<pre class="apidocCodePre">n/a</pre></li>
+    </ul>
+
+
+
+    <h2>
+        <a href="#apidoc.element.node-pushnotifications.push_notifications" id="apidoc.element.node-pushnotifications.push_notifications">
+        function <span class="apidocSignatureSpan">node-pushnotifications.</span>push_notifications
+        <span class="apidocSignatureSpan">(options)</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">function PN(options) {
+    this.settings = Object.assign({}, defaultSettings, options || {});
+}</pre></li>
+    <li>example usage<pre class="apidocCodePre">n/a</pre></li>
+    </ul>
+
+
+
+
+</div>
+
+<div class="apidocSectionDiv">
+<h1><a href="#apidoc.module.node-pushnotifications.push_notifications" id="apidoc.module.node-pushnotifications.push_notifications">module node-pushnotifications.push_notifications</a></h1>
+
+
+    <h2>
+        <a href="#apidoc.element.node-pushnotifications.push_notifications.push_notifications" id="apidoc.element.node-pushnotifications.push_notifications.push_notifications">
+        function <span class="apidocSignatureSpan">node-pushnotifications.</span>push_notifications
+        <span class="apidocSignatureSpan">(options)</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">function PN(options) {
+    this.settings = Object.assign({}, defaultSettings, options || {});
+}</pre></li>
+    <li>example usage<pre class="apidocCodePre">n/a</pre></li>
+    </ul>
+
+
+</div>
+
+<div class="apidocSectionDiv">
+<h1><a href="#apidoc.module.node-pushnotifications.push_notifications.prototype" id="apidoc.module.node-pushnotifications.push_notifications.prototype">module node-pushnotifications.push_notifications.prototype</a></h1>
+
+
+    <h2>
+        <a href="#apidoc.element.node-pushnotifications.push_notifications.prototype.send" id="apidoc.element.node-pushnotifications.push_notifications.prototype.send">
+        function <span class="apidocSignatureSpan">node-pushnotifications.push_notifications.prototype.</span>send
+        <span class="apidocSignatureSpan">(_regIds, data, callback)</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">function send(_regIds, data, callback) {
+    var promises = [];
+    var regIdsGCM = [];
+    var regIdsAPN = [];
+    var regIdsWNS = [];
+    var regIdsADM = [];
+    var regIdsUnk = [];
+    var regIds = Array.isArray(_regIds || []) ? _regIds || [] : [_regIds];
+
+    // Classify each pushId for corresponding device
+    var _iteratorNormalCompletion = true;
+    var _didIteratorError = false;
+    var _iteratorError = undefined;
+
+    try {
+        for (var _iterator = regIds[Symbol.iterator](), _step; !(_iteratorNormalCompletion = (_step = _iterator.next()).done); _iteratorNormalCompletion
+ = true) {
+            var regId = _step.value;
+
+            if (regId.substring(0, 4) === &#x27;http&#x27;) {
+                regIdsWNS.push(regId);
+            } else if (/(amzn|adm)/i.test(regId)) {
+                regIdsADM.push(regId);
+            } else if (regId.length &#x3e; 64) {
+                regIdsGCM.push(regId);
+            } else if (regId.length === 64) {
+                regIdsAPN.push(regId);
+            } else {
+                regIdsUnk.push(regId);
+            }
+        }
+    } catch (err) {
+        _didIteratorError = true;
+        _iteratorError = err;
+    } finally {
+        try {
+            if (!_iteratorNormalCompletion &#x26;&#x26; _iterator.return) {
+                _iterator.return();
+            }
+        } finally {
+            if (_didIteratorError) {
+                throw _iteratorError;
+            }
+        }
+    }
+
+    try {
+        // Android GCM
+        if (regIdsGCM.length &#x3e; 0) {
+            promises.push(this.sendWith(_sendGCM2.default, regIdsGCM, data));
+        }
+
+        // iOS APN
+        if (regIdsAPN.length &#x3e; 0) {
+            promises.push(this.sendWith(_sendAPN2.default, regIdsAPN, data));
+        }
+
+        // Microsoft WNS
+        if (regIdsWNS.length &#x3e; 0) {
+            promises.push(this.sendWith(_sendWNS2.default, regIdsWNS, data));
+        }
+
+        // Amazon ADM
+        if (regIdsADM.length &#x3e; 0) {
+            promises.push(this.sendWith(_sendADM2.default, regIdsADM, data));
+        }
+    } catch (err) {
+        promises.push(Promise.reject(err));
+    }
+
+    // Unknown
+    if (regIdsUnk.length &#x3e; 0) {
+        (function () {
+            var results = {
+                method: &#x27;unknown&#x27;,
+                success: 0,
+                failure: regIdsUnk.length,
+                message: []
+            };
+            regIdsUnk.forEach(function (regId) {
+                results.message.push({
+                    regId: regId,
+                    error: new Error(&#x27;Unknown registration id&#x27;)
+                });
+            });
+            promises.push(Promise.resolve(results));
+        })();
+    }
+
+    // No regIds detected
+    if (promises.length === 0) {
+        promises.push(Promise.resolve({
+            method: &#x27;none&#x27;,
+            success: 0,
+            failure: 0,
+            message: []
+        }));
+    }
+
+    return Promise.all(promises).then(function (results) {
+        var cb = callback || function (noop) {
+            return noop;
+        };
+        cb(null, results);
+        return results;
+    }).catch(function (err) {
+        var cb = callback || function (noop) {
+            return noop;
+        };
+        cb(err);
+        return Promise.reject(err);
+    });
+}</pre></li>
+    <li>example usage<pre class="apidocCodePre">...
+    headers: [], // wns
+    launch: &#x27;&#x27;, // wns
+    duration: &#x27;&#x27;, // wns
+    consolidationKey: &#x27;my notification&#x27;, // ADM
+};
+
+// You can use it in node callback style
+push.<span class="apidocCodeKeywordSpan">send</span>(registrationIds, data, (err, result) =&#x3e; {
+    if (err) {
+        console.log(err);
+    } else {
+	    console.log(result);
+    }
+});
+...</pre></li>
+    </ul>
+
+
+
+    <h2>
+        <a href="#apidoc.element.node-pushnotifications.push_notifications.prototype.sendWith" id="apidoc.element.node-pushnotifications.push_notifications.prototype.sendWith">
+        function <span class="apidocSignatureSpan">node-pushnotifications.push_notifications.prototype.</span>sendWith
+        <span class="apidocSignatureSpan">(method, regIds, data, cb)</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">function sendWith(method, regIds, data, cb) {
+    return method(regIds, data, this.settings).then(function (results) {
+        (cb || function (noop) {
+            return noop;
+        })(null, results);
+        return results;
+    }).catch(function (error) {
+        (cb || function (noop) {
+            return noop;
+        })(error);
+        return Promise.reject(error);
+    });
+}</pre></li>
+    <li>example usage<pre class="apidocCodePre">n/a</pre></li>
+    </ul>
+
+
+
+    <h2>
+        <a href="#apidoc.element.node-pushnotifications.push_notifications.prototype.setOptions" id="apidoc.element.node-pushnotifications.push_notifications.prototype.setOptions">
+        function <span class="apidocSignatureSpan">node-pushnotifications.push_notifications.prototype.</span>setOptions
+        <span class="apidocSignatureSpan">(opts)</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">function setOptions(opts) {
+    this.settings = Object.assign({}, this.settings, opts);
+}</pre></li>
+    <li>example usage<pre class="apidocCodePre">n/a</pre></li>
+    </ul>
+
+
+</div>
+
+<div class="apidocFooterDiv">
+    [ this document was created with
+    <a href="https://github.com/kaizhu256/node-utility2" target="_blank">utility2</a>
+    ]
+</div>
+</div>
